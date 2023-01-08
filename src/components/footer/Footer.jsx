@@ -13,7 +13,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer>
+    <div className="footer">
       <a href="#" className="footer__logo">
         {/* <img src={Logo2} alt="logo" style={{ width: 200, }} /> */}
         <img
@@ -73,7 +73,7 @@ function Footer() {
       <div className="footer__copyright">
         <small>&copy; Farshad. {t("logo")}.</small>
       </div>
-    </footer>
+    </div>
   );
 }
 
