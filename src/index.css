@@ -156,4 +156,7 @@ footer {
   grid-template-columns: 30% 58%;
   gap: 12%;
 }
+.footer-a {
+  color: var(--color-bg);
+}
 
