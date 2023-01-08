@@ -19,6 +19,7 @@ function App() {
     setDir(languageValue);
   };
   return (
+    <>
     <div dir={dir === "en" ? "ltr" : "rtl"}>
       <div className="multi-lang container">
         {/* Select box to change language */}
@@ -37,6 +38,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    </>
   );
 }
 
