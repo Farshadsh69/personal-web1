@@ -26,25 +26,25 @@ function Footer() {
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">{t("home")}</a>
+          <a href="#" className="footer-a">{t("home")}</a>
         </li>
         <li>
-          <a href="#about">{t("about")}</a>
+          <a href="#about" className="footer-a">{t("about")}</a>
         </li>
         <li>
-          <a href="#experience">{t("experience")}</a>
+          <a href="#experience" className="footer-a">{t("experience")}</a>
         </li>
         {/* <li>
           <a href="#services">{t("services")}</a>
         </li> */}
         <li>
-          <a href="#portfolio">{t("portfolio")}</a>
+          <a href="#portfolio" className="footer-a">{t("portfolio")}</a>
         </li>
         <li>
-          <a href="#testimonials">{t("recommendations")}</a>
+          <a href="#testimonials" className="footer-a">{t("recommendations")}</a>
         </li>
         <li>
-          <a href="#contact">{t("contact")}</a>
+          <a href="#contact" className="footer-a">{t("contact")}</a>
         </li>
       </ul>
       <div className="footer__socials">
