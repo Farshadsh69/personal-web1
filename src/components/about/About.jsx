@@ -11,8 +11,8 @@ function About() {
 
   return (
     <section id="about">
-      <h5>{t("getToKnow")}</h5>
-      <h2>{t("aboutMe")}</h2>
+      <h5 className="aboutMe">{t("getToKnow")}</h5>
+      <h2 >{t("aboutMe")}</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
