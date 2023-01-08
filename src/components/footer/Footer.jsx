@@ -13,11 +13,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer style={{background: "var(--color-primary)",
-      padding: "3rem 0",
-      textAlign: "center",
-      fontSize: "0.9rem",
-      marginTop: "7rem"}}>
+    <footer>
       <a href="#" className="footer__logo">
         {/* <img src={Logo2} alt="logo" style={{ width: 200, }} /> */}
         <img

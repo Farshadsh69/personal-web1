@@ -1,11 +1,11 @@
-.footer {
-  /* background: var(--color-primary);
+footer {
+  background: var(--color-primary);
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem; */
+  margin-top: 7rem;
 }
-.footer a {
+footer a {
   color: var(--color-bg);
 }
 .footer__logo {
