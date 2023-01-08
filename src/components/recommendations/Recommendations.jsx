@@ -39,8 +39,8 @@ function Recommendations() {
     <section id="recommendations">
       <h5>{t("recommendations")}</h5>
       <h2>{t("received")}</h2>
+      <div className="container recommendations__container" >
       <Swiper
-        className="container recommendations__container"
         // install Swiper modules
         modules={[Pagination]}
         spaceBetween={40}
@@ -57,6 +57,7 @@ function Recommendations() {
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
     </section>
   );
 }
