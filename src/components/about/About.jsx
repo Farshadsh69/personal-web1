@@ -7,7 +7,7 @@ import ME from "../../assets/farshad22.jpg";
 import "./about.css";
 
 function About() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section id="about">
