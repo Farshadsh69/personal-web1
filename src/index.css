@@ -151,10 +151,10 @@ footer {
   margin-top: 7rem;
 }
 .contact__container {
-  width: 58% !important;
-  display: grid !important;
-  grid-template-columns: 30% 58% !important;
-  gap: 12% !important;
+  width: 58% ;
+  display: grid ;
+  grid-template-columns: 30% 58% ;
+  gap: 12% ;
 }
 .footer-a {
   color: var(--color-bg) !important;
