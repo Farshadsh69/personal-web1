@@ -37,19 +37,6 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
 }
-footer {
-  background: var(--color-primary);
-  padding: 3rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 7rem;
-}
-
-.contact__container {
-  display: grid;
-  grid-template-columns: 30% 58%;
-  gap: 12%;
-}
 
 /*-----------GeNERAL STYLES----------- */
 .container {

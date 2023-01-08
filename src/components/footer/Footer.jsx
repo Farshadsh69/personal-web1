@@ -13,11 +13,13 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <footer>
       <a href="#" className="footer__logo">
+        {/* <img src={Logo2} alt="logo" style={{ width: 200, }} /> */}
         <img
           src={Logo3}
           alt="logo"
+          style={{ "&:hover": { transition: 5 } }}
           onMouseOver={(e) => (e.currentTarget.src = Logo4)}
           onMouseOut={(e) => (e.currentTarget.src = Logo3)}
         />
@@ -71,7 +73,7 @@ function Footer() {
       <div className="footer__copyright">
         <small>&copy; Farshad. {t("logo")}.</small>
       </div>
-    </>
+    </footer>
   );
 }
 

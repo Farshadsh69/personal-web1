@@ -25,77 +25,75 @@ function Contact() {
     <section id="contact">
       <h5>{t("getInTouch")}</h5>
       <h2>{t("contactMe")}</h2>
-      <div className="container ">
-        <div className="contact__container">
-          <div className="contact__options">
-            <article className="contact__option">
-              <MdOutlineEmail className="contact__option-icon" />
-              <h4>Email</h4>
-              <h5>farshadshabani69@gmail.com</h5>
-              <a
-                href="mailto:farshadshabani69@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("sendMassage")}
-              </a>
-            </article>
-
-            <article className="contact__option">
-              <RiTelegramLine className="contact__option-icon" />
-              <h4>Telegram</h4>
-              <h5>@Fz666</h5>
-              <a
-                href="https://telegram.me/Fz666"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("sendMassage")}
-              </a>
-            </article>
-            <article className="contact__option">
-              <BsWhatsapp className="contact__option-icon" />
-              <h4>WhatsApp</h4>
-              <h5>+98 9350783233</h5>
-              <a
-                href="https://wa.me/+989350783233"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("sendMassage")}
-              </a>
-            </article>
-          </div>
-          {/* END OF CONTACT OPTION */}
-          <form ref={form} onSubmit={sendEmail} className="contact__options">
-            <input
-              type="text"
-              name="name"
-              placeholder={t("yourFullName")}
-              required
-              style={{ fontSize: 18 }}
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder={t("yourEmail")}
-              required
-              style={{ fontSize: 18 }}
-            />
-            <textarea
-              name="massage"
-              id=""
-              cols="30"
-              rows="7"
-              placeholder={t("yourMassage")}
-              required
-              style={{ fontSize: 18 }}
-            ></textarea>
-            <button type="submit" className="btn btn-primary">
+      <div className="container contact__container">
+        <div className="contact__options">
+          <article className="contact__option">
+            <MdOutlineEmail className="contact__option-icon" />
+            <h4>Email</h4>
+            <h5>farshadshabani69@gmail.com</h5>
+            <a
+              href="mailto:farshadshabani69@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               {t("sendMassage")}
-            </button>
-          </form>
+            </a>
+          </article>
+
+          <article className="contact__option">
+            <RiTelegramLine className="contact__option-icon" />
+            <h4>Telegram</h4>
+            <h5>@Fz666</h5>
+            <a
+              href="https://telegram.me/Fz666"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("sendMassage")}
+            </a>
+          </article>
+          <article className="contact__option">
+            <BsWhatsapp className="contact__option-icon" />
+            <h4>WhatsApp</h4>
+            <h5>+98 9350783233</h5>
+            <a
+              href="https://wa.me/+989350783233"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("sendMassage")}
+            </a>
+          </article>
         </div>
+        {/* END OF CONTACT OPTION */}
+        <form ref={form} onSubmit={sendEmail} className="contact__options">
+          <input
+            type="text"
+            name="name"
+            placeholder={t("yourFullName")}
+            required
+            style={{ fontSize: 18 }}
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder={t("yourEmail")}
+            required
+            style={{ fontSize: 18 }}
+          />
+          <textarea
+            name="massage"
+            id=""
+            cols="30"
+            rows="7"
+            placeholder={t("yourMassage")}
+            required
+            style={{ fontSize: 18 }}
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            {t("sendMassage")}
+          </button>
+        </form>
       </div>
     </section>
   );
