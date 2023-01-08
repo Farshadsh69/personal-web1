@@ -157,6 +157,7 @@ footer {
   gap: 12%;
 }
 .footer-a {
-  color: var(--color-bg);
+  color: var(--color-bg) !important;
+
 }
 
