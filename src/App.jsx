@@ -10,7 +10,7 @@ import Recommendations from "./components/recommendations/Recommendations";
 import Skills from "./components/skills/Skills";
 
 function App() {
-  const { i18n } = useTranslation();
+  const {t, i18n } = useTranslation();
   const [dir, setDir] = useState("en");
   //Creating a method to change the language onChange from select box
   const changeLanguageHandler = (e) => {
@@ -33,7 +33,15 @@ function App() {
       <Skills />
       {/* <Services /> */}
       <Portfolio />
+      <section id="contact">
+      <h5>{t("getInTouch")}</h5>
+      <h2>{t("contactMe")}</h2>
+      <div className="container ">
+        <div className="contact__container">
       <Recommendations />
+      </div >
+      </div >
+      </section>
       <Contact />
       <footer >
         <Footer />
