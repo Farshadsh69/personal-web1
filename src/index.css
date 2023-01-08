@@ -75,7 +75,7 @@ a {
   transition: var(--transition);
 }
 a:hover {
-  color: var(--color-white);
+  color: var(--color-white) !important ;
 }
 .btn {
   width: max-content;
@@ -89,7 +89,7 @@ a:hover {
 }
 .btn:hover {
   background: var(--color-white);
-  color: var(--color-bg) !important;
+  color: var(--color-bg) ;
   border-color: transparent;
 }
 .btn-primary {
