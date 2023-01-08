@@ -2,7 +2,6 @@
 import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
-import { TfiSkype } from "react-icons/tfi";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
