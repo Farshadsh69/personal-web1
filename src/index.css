@@ -37,6 +37,13 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png);
 }
+footer {
+  background: var(--color-primary);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
 
 /*-----------GeNERAL STYLES----------- */
 .container {

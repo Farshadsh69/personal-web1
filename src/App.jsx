@@ -35,7 +35,9 @@ function App() {
       <Portfolio />
       <Recommendations />
       <Contact />
-      <Footer />
+      <footer >
+        <Footer />
+      </footer>
     </div>
   );
 }
