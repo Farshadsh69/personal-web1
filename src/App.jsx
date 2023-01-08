@@ -19,16 +19,14 @@ function App() {
     setDir(languageValue);
   };
   return (
-    // <dir dir={dir === "en" ? "ltr" : "rtl"}>
-    //   <div className="multi-lang container">
-    //     {/* Select box to change language */}
-    //     <select className="custom-select" onChange={changeLanguageHandler}>
-    //       <option value="en">English</option>
-    //       <option value="fa">فارسی</option>
-    //     </select>
-    //   </div>
-    // </dir>
-<>
+    <dir dir={dir === "en" ? "ltr" : "rtl"}>
+      <div className="multi-lang container">
+        {/* Select box to change language */}
+        <select className="custom-select" onChange={changeLanguageHandler}>
+          <option value="en">English</option>
+          <option value="fa">فارسی</option>
+        </select>
+      </div>
       <Nav />
       <Header />
       <About />
@@ -38,7 +36,7 @@ function App() {
       <Recommendations />
       <Contact />
       <Footer />
-</>
+    </dir>
   );
 }
 
