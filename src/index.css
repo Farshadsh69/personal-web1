@@ -161,9 +161,17 @@ footer {
 
 }
 .recommendations__container {
-  width: 50% !important;
+  width: 50% ;
   padding-bottom: 4rem;
-  direction: ltr !important;
+  direction: ltr ;
+}
+.client__avatar {
+  width: 4rem ;
+  aspect-ratio: 1/1 ;
+  overflow: hidden ;
+  border-radius: 50% ;
+  margin: 0 auto 1rem ;
+  border: 0.4rem solid var(--color-primary-variant) ;
 }
 nav {
   background: rgba(0, 0, 0, 0.3);
@@ -181,11 +189,11 @@ nav {
 }
 
 nav a {
-  background: transparent !important;
-  padding: 0.9rem !important;
-  border-radius: 50% !important;
-  display: flex !important;
-  color: var(--color-light) !important;
-  font-size: 1.1rem !important;
+  background: transparent ;
+  padding: 0.9rem ;
+  border-radius: 50% ;
+  display: flex ;
+  color: var(--color-light) ;
+  font-size: 1.1rem ;
 }
 

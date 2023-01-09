@@ -1,11 +1,15 @@
-
+.recommendations__container {
+  width: 50% ;
+  padding-bottom: 4rem;
+  direction: ltr ;
+}
 .client__avatar {
-  width: 4rem !important;
-  aspect-ratio: 1/1 !important;
-  overflow: hidden !important;
-  border-radius: 50% !important;
-  margin: 0 auto 1rem !important;
-  border: 0.4rem solid var(--color-primary-variant) !important;
+  width: 4rem ;
+  aspect-ratio: 1/1 ;
+  overflow: hidden ;
+  border-radius: 50% ;
+  margin: 0 auto 1rem ;
+  border: 0.4rem solid var(--color-primary-variant) ;
 }
 .recommendation {
   background: var(--color-bg-variant);
