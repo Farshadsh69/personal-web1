@@ -27,14 +27,14 @@ function Nav() {
       <a
         href="#skills"
         onClick={() => setActiveNav("#skills")}
-        className={activeNav === "#experience" ? "active" : ""}
+        className={activeNav === "#skills" ? "active" : ""}
       >
         <GiSkills />
       </a>
       <a
         href="#recommendations"
         onClick={() => setActiveNav("#recommendations")}
-        className={activeNav === "#services" ? "active" : ""}
+        className={activeNav === "#recommendations" ? "active" : ""}
       >
         <MdRecommend />
       </a>

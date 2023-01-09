@@ -180,3 +180,12 @@ nav {
   backdrop-filter: blur(15px);
 }
 
+nav a {
+  background: transparent !important;
+  padding: 0.9rem !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  color: var(--color-light) !important;
+  font-size: 1.1rem !important;
+}
+
