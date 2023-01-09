@@ -1,11 +1,11 @@
 
 nav a {
-  background: transparent;
-  padding: 0.9rem;
-  border-radius: 50%;
-  display: flex;
-  color: var(--color-light);
-  font-size: 1.1rem;
+  background: transparent !important;
+  padding: 0.9rem !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  color: var(--color-light) !important;
+  font-size: 1.1rem !important;
 }
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
