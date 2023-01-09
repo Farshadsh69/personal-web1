@@ -1,8 +1,4 @@
-.recommendations__container {
-  width: 50% !important;
-  padding-bottom: 4rem;
-  direction: ltr !important;
-}
+
 .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;
