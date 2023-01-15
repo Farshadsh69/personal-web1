@@ -89,7 +89,7 @@ a:hover {
 }
 .btn:hover {
   background: var(--color-white);
-  color: var(--color-bg) ;
+  color: var(--color-bg) !important ;
   border-color: transparent;
 }
 .btn-primary {
