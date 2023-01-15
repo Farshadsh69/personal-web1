@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import CV from "../../assets/portfolio6.jpg";
+import CV from "../../assets/MyResume.pdf";
 import { useTranslation } from "react-i18next";
 
 function CTA() {
