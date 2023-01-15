@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-web1/static/css/main.38961bed.css",
-    "main.js": "/personal-web1/static/js/main.1c79de2f.js",
+    "main.css": "/personal-web1/static/css/main.93d7ca70.css",
+    "main.js": "/personal-web1/static/js/main.02f56256.js",
     "static/media/farshad22.jpg": "/personal-web1/static/media/farshad22.15221066b67d0c78ee82.jpg",
     "static/media/amir.png": "/personal-web1/static/media/amir.f3364e4dbc22612a2f4b.png",
+    "static/media/admin-dashboard.jpg": "/personal-web1/static/media/admin-dashboard.1c814e9dd9fcbc2aaadd.jpg",
     "static/media/maedeh.png": "/personal-web1/static/media/maedeh.755cf18e13fa91dfaae5.png",
     "static/media/farshad11.png": "/personal-web1/static/media/farshad11.2213b85ea0e1524a82f8.png",
     "static/media/landing.jpg": "/personal-web1/static/media/landing.5a0a4917ac07d5a3b3c7.jpg",
     "static/media/shop.jpg": "/personal-web1/static/media/shop.3e61454ea32343d2b321.jpg",
     "static/media/shoe-shopping.jpg": "/personal-web1/static/media/shoe-shopping.8dafcc05b71e8a2950fd.jpg",
     "static/media/personal-web2.jpg": "/personal-web1/static/media/personal-web2.caf3e3201ed9e7e952fa.jpg",
+    "static/media/MyResume.pdf": "/personal-web1/static/media/MyResume.4facffb76d025e294faa.pdf",
     "static/media/IRANSansWeb(FaNum)_Light.eot": "/personal-web1/static/media/IRANSansWeb(FaNum)_Light.2dffffe3b22e33c7ec29.eot",
     "static/media/IRANSansWeb(FaNum)_Light.ttf": "/personal-web1/static/media/IRANSansWeb(FaNum)_Light.cc2c043728adc25f924b.ttf",
     "static/media/IRANSansWeb(FaNum)_UltraLight.eot": "/personal-web1/static/media/IRANSansWeb(FaNum)_UltraLight.93a22db98bbe6a6fdef5.eot",
@@ -26,7 +28,6 @@
     "static/media/IRANSansWeb(FaNum)_Light.woff": "/personal-web1/static/media/IRANSansWeb(FaNum)_Light.955f38e3e1aab0d034a9.woff",
     "static/media/IRANSansWeb(FaNum).woff": "/personal-web1/static/media/IRANSansWeb(FaNum).337881a1246d3b51b420.woff",
     "static/media/IRANSansWeb(FaNum)_Bold.woff": "/personal-web1/static/media/IRANSansWeb(FaNum)_Bold.aa12a017cbd4a5f73587.woff",
-    "static/media/portfolio6.jpg": "/personal-web1/static/media/portfolio6.eb543ed11e37fff8d9e7.jpg",
     "static/media/IRANSansWeb(FaNum)_Black.woff": "/personal-web1/static/media/IRANSansWeb(FaNum)_Black.45f207ebaeda42d31740.woff",
     "static/media/IRANSansWeb(FaNum)_Medium.woff": "/personal-web1/static/media/IRANSansWeb(FaNum)_Medium.10d80bfa89985b74a634.woff",
     "static/media/IRANSansWeb(FaNum)_Light.woff2": "/personal-web1/static/media/IRANSansWeb(FaNum)_Light.721eb7ab97005da7447e.woff2",
@@ -36,11 +37,11 @@
     "static/media/IRANSansWeb(FaNum)_Black.woff2": "/personal-web1/static/media/IRANSansWeb(FaNum)_Black.aca84f753ff041f9bbd6.woff2",
     "static/media/IRANSansWeb(FaNum)_Medium.woff2": "/personal-web1/static/media/IRANSansWeb(FaNum)_Medium.ed4ac452b05d496237b8.woff2",
     "index.html": "/personal-web1/index.html",
-    "main.38961bed.css.map": "/personal-web1/static/css/main.38961bed.css.map",
-    "main.1c79de2f.js.map": "/personal-web1/static/js/main.1c79de2f.js.map"
+    "main.93d7ca70.css.map": "/personal-web1/static/css/main.93d7ca70.css.map",
+    "main.02f56256.js.map": "/personal-web1/static/js/main.02f56256.js.map"
   },
   "entrypoints": [
-    "static/css/main.38961bed.css",
-    "static/js/main.1c79de2f.js"
+    "static/css/main.93d7ca70.css",
+    "static/js/main.02f56256.js"
   ]
 }
