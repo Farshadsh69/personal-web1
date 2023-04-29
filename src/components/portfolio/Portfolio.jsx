@@ -5,6 +5,7 @@ import IMG2 from "../../assets/admin-dashboard.jpg";
 import IMG5 from "../../assets/shoe-shopping.jpg";
 import IMG3 from "../../assets/shop.jpg";
 import IMG4 from "../../assets/personal-web2.jpg";
+import IMG6 from "../../assets/youtube.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -47,6 +48,13 @@ function Portfolio() {
       title: t("landingPage"),
       github: "https://github.com/Farshadsh69/landing",
       demo: "https://farshadsh69.github.io/landing/",
+    },
+    {
+      id: 6,
+      image: IMG6,
+      title: t("YouTube"),
+      github: "https://github.com/Farshadsh69/youTube",
+      demo: "https://github.com/Farshadsh69/youTube",
     },
   ];
   return (
